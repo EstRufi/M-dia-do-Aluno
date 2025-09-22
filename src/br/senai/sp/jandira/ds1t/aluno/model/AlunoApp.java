@@ -41,8 +41,10 @@ public class AlunoApp {
         System.out.println("------------------------------------------------");
         if (notaFinalDoAluno >= 5.0) {
             System.out.println("É o seguinte " + nome + " você foi aprovado!!");
+        } else if (notaFinalDoAluno <3.0) {
+            System.out.println("Então " + nome + " infelizmente você foi reprovado meus pesames");
         } else {
-            System.out.println("Então " + nome + "infelizmente você foi reprovado meus pesames");
+            System.out.println("Você ainda tem chance, vamos deixar você em recuperação. Ok?");
         }
         System.out.println("Você ficou com a media de " + notaFinalDoAluno + ".");
         System.out.println("------------------------------------------------");
